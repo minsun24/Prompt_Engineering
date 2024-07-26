@@ -6,10 +6,8 @@ import re
 import json
 import ast
 
-load_dotenv()
-
-api_key = os.getenv("OPENAI_API_KEY")
-ai = openai.Client(api_key=api_key)
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+ai = openai.Client(api_key=OPENAI_API_KEY)
 
 data = [
     {

@@ -1,6 +1,7 @@
 from openai import OpenAI; 
 import openai; 
 import json; 
+import os;
 # import datasets from './commit_data_row.json'; 
 
 with open('./commit_datas.json') as json_file:
@@ -8,7 +9,7 @@ with open('./commit_datas.json') as json_file:
 # print(json_data)
 
 
-OPENAI_API_KEY = ''
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 ai = openai.Client(api_key=OPENAI_API_KEY)
 
 
