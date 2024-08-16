@@ -1,0 +1,152 @@
+[
+    {
+        "commit": "59884989f7688478b86769d209a0570d81322ebf",
+        "message": "Change OS X installer builds targeted for 10.10 and above to build and link with a private copy of OpenSSL, like installers targeted for 10.5 already do, since Apple has deprecated use of the system OpenSSL and removed its header files from the Xcode 7 SDK. Note that this configuration is not currently used to build any python.org-supplied installers and that the private copy of OpenSSL requires its own root certificates.",
+        "repo": "python\/cpython"
+    },
+    {
+        "commit": "c53ef0e292202793fff861f854b8d7957323ad25",
+        "message": "Internal dependency changes.",
+        "repo": "tensorflow\/tensorflow"
+    },
+    {
+        "commit": "ad8e36c41aa15f525ec50bffcf755428e45d8f14",
+        "message": "Support -masm= flag for x86 targets.",
+        "repo": "llvm\/llvm-project"
+    },
+    {
+        "commit": "06790efb146f9682d5668d0a0729c9a00e200e0b",
+        "message": "Add a test for cancelling jobs in drive::JobScheduler.",
+        "repo": "chromium\/chromium"
+    },
+    {
+        "commit": "bff8ece152ca22576538a6d1e117a27eb689ccb0",
+        "message": "Revert \"Add --merge-base-ref option to lastchange.py\"",
+        "repo": "chromium\/chromium"
+    },
+    {
+        "commit": "f35466ac346d2f4b17a3a8867c94db99e61a1503",
+        "message": "bulk edit - check for trash capability before using it",
+        "repo": "microsoft\/vscode"
+    },
+    {
+        "commit": "4f20126d2ced15f88583b99479421308d19789a5",
+        "message": "eliminate eclipse warnings",
+        "repo": "rstudio\/rstudio"
+    },
+    {
+        "commit": "76108c2bf3ad1a4bac901ad99230f58faf87bc4b",
+        "message": "Stop CSP from matching independent scheme\/port upgrades (content layer)",
+        "repo": "chromium\/chromium"
+    },
+    {
+        "commit": "3a44e8e5d6e60b316f1bd06a152c746db2adbf20",
+        "message": "Merge pull request #54147 from mattfarina\/addon-docs",
+        "repo": "kubernetes\/kubernetes"
+    },
+    {
+        "commit": "235d47760b2dc9e899f488a7d87348adfd9742c6",
+        "message": "Relax check on outputs (#15458)",
+        "repo": "pytorch\/pytorch"
+    },
+    {
+        "commit": "523d8af26efc0345f2c4e1f0aa028fb9fe9ba3bb",
+        "message": "CMake helper to deprioritize Anaconda include path",
+        "repo": "pytorch\/pytorch"
+    },
+    {
+        "commit": "db7889cda3571bfd0d3a3fc79ca0cd16bb321ff2",
+        "message": "ath9k: Fix txq memory address printing in debugfs.",
+        "repo": "torvalds\/linux"
+    },
+    {
+        "commit": "4d23b872fb95e78ea5b61e3818726573a7e7fa7d",
+        "message": "Fix crash around download manager initialization within Opt Guide",
+        "repo": "chromium\/chromium"
+    },
+    {
+        "commit": "984ecfa31038aef5cda961d5ed19788a42ee05aa",
+        "message": "[ozone\/x11] Moved most X11-dependent code to XDragDropClient.",
+        "repo": "chromium\/chromium"
+    },
+    {
+        "commit": "3ce692a7408202dabdcc3cda3fecf0b1c0768b53",
+        "message": "Roll Fuchsia SDK from 0.20200825.3.1 to 0.20200826.0.1",
+        "repo": "chromium\/chromium"
+    },
+    {
+        "commit": "4af11b8f62dfebd1d2a36a554da4fb2039920ea4",
+        "message": "Add missing dep WebKit\/Source\/platform\/loader on generated headers",
+        "repo": "chromium\/chromium"
+    },
+    {
+        "commit": "5a8fe60d7e677d822305195ee569a3edd0ce3b3d",
+        "message": "Remove surplus mmap() call for stack guard page in init_private, it is done in init_main_thread. Also don't initialize lock and lockuser again for initial thread, it is already done by _thr_alloc().",
+        "repo": "freebsd\/freebsd-src"
+    },
+    {
+        "commit": "fa70cf60b41e94984d8e23fa49dca89fa608677a",
+        "message": "DevTools: PRESUBMIT check for application manifests",
+        "repo": "chromium\/chromium"
+    },
+    {
+        "commit": "09c1b3d8585337c75d0a84176d0ab6f4c26a64e0",
+        "message": "[PCH] In ASTWriter::WriteChainedObjCCategories use getDeclID since the decls should have been already emitted.",
+        "repo": "llvm\/llvm-project"
+    },
+    {
+        "commit": "7dbe0f0636a1377aa4b7eaa5c749163fef104111",
+        "message": "Remove ScavengedRC from RegisterScavenging",
+        "repo": "llvm\/llvm-project"
+    },
+    {
+        "commit": "06d163290975a03461ecd9f8a9b9a969154090db",
+        "message": "Project to build alternative version of MWCRuntimePPC.lib, needed for PythonCore as of the CW7.5 release.",
+        "repo": "python\/cpython"
+    },
+    {
+        "commit": "8617402e6bd375cb3738dc33787201f651879c22",
+        "message": "Roll src-internal 1890cd528de0..e2dd9070a0c7 (1 commits)",
+        "repo": "chromium\/chromium"
+    },
+    {
+        "commit": "0be63691761b90db55573aaf5131c7d46a720e74",
+        "message": "Update the Function and Module verifiers to return LogicalResult instead of bool.",
+        "repo": "llvm\/llvm-project"
+    },
+    {
+        "commit": "6cb75be0ca51f2f2f853995da807994bf14776cb",
+        "message": "SIL: Add verifier checks for existential_box instructions.",
+        "repo": "apple\/swift"
+    },
+    {
+        "commit": "de32b38992b8adbf7a6b83f580b2cb60fe7b98af",
+        "message": "addon: remove node-waf, superseded by node-gyp",
+        "repo": "nodejs\/node"
+    },
+    {
+        "commit": "946c0a6bd44c64055a16081523396b7867113e63",
+        "message": "Use \"%s\" in vm_rpc_send_rpci_tx() call. Avoids a \"format string is not a string literal\" warning from clang.",
+        "repo": "openbsd\/src"
+    },
+    {
+        "commit": "aab57f153be71fa03f866cff617039881425f434",
+        "message": "MFC r200994: Set the locally-assigned bit in the randomly generated Ethernet address if we end up having to generate one.",
+        "repo": "freebsd\/freebsd-src"
+    },
+    {
+        "commit": "a215eb4f0455e377dbc1f27a1c160dec88eb5c00",
+        "message": "AC97 -> AC'97, according to spec;",
+        "repo": "openbsd\/src"
+    },
+    {
+        "commit": "13b758eb46e1bc038af7852e5bb1aefa734e5d34",
+        "message": "Add seatbelt like in previous function..",
+        "repo": "freebsd\/freebsd-src"
+    },
+    {
+        "commit": "2be596ad38da7afeb9021ae5e1bf8599e3049bdc",
+        "message": "Be more strict with locking for is_waiting_for_iscsid variable.",
+        "repo": "freebsd\/freebsd-src"
+    }
+]
