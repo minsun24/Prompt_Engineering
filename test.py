@@ -10,7 +10,6 @@ with open('./commit_datas.json') as json_file:
 
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-
 ai = openai.Client(api_key=OPENAI_API_KEY)
 
 
