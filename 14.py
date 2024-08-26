@@ -1,1 +1,0 @@
-print('hello 14.py for test')
